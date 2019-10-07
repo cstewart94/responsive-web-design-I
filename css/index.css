@@ -183,6 +183,96 @@ h1, h2, h3, h4, h5 {
     	justify-content: center
 	}
 
+	/*START SERVICES STYLE*/
+.container{
+}
+
+.servicesTop{
+	display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.servicesTop img{
+	display: flex;
+    margin: 10px 0px
+}
+
+.servicesTop h1{
+	margin: 20px 0px;
+    font-size: 25px;
+}
+
+.middleParent{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 800px;
+	
+}
+
+.middleChild{
+	display: flex;
+    justify-content: space-between;
+    margin: 30px 0px 0px 0px;
+}
+
+.middleGrandChild{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    align-items: flex-start;
+	padding: 10px;
+	padding-left: 20px;
+    width: 48%;
+    height: 220px;
+}
+
+.middleGrandChild button{
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 25px;
+    font-size: 10px;
+}
+
+.bottomParent{
+	display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+}
+
+.bottomChild{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottomChild ul{
+	list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.bottomChild p{
+	display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.copyright{
+	display: flex;
+    justify-content: center;
+    margin: 100px 0px 15px;
+}
+
 
     /*START 800PX*/
 @media(max-width:800px){
@@ -229,7 +319,35 @@ h1, h2, h3, h4, h5 {
     hr{
         width:98%;
         margin: 25px 1%;
-    }
+	}
+	
+	/*START SERVIES 800PX*/
+	
+	.servicesTop img{
+		width:100%;
+	}
+
+	.bottomParent{
+		text-align: center;
+	}
+
+	.bottomParent .bottomChild ul{
+		font-weight: bold;
+		list-style-type:none;
+		margin: 5%;
+	}
+
+	.bottomParent .bottomChild li{
+		margin: 1%;
+	}
+
+	.bottomParent img{
+		display:none;
+	}
+
+	.copyright{
+		margin: 3%;
+	}
 
 }
 
@@ -237,7 +355,8 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width:500px){
     .container{
-        max-width:100%;
+		max-width:100%;
+		justify-content:center;
     }
 
     header{
@@ -292,6 +411,11 @@ h1, h2, h3, h4, h5 {
 
     .contact p{
         margin: 0px 10px;
-    }
+	}
+	
+	/*START SERVIES 500PX*/
+	.servicesTop img{
+		width:98%;
+	}
 }
 
