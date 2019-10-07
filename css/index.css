@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5 {
 	
 	.middle-img{
 		margin: 40px 0px;
+		width: 100%;
 	}
 	
 	.bottomPageContent{
@@ -158,6 +159,7 @@ h1, h2, h3, h4, h5 {
 
 	.bottom{
 		width: 32%;
+		padding-right: 1%;
 	}
 	
 	.contact{
