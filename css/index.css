@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container{
-	width: 900px;
+	width: 95%;
 	margin: auto;
 	}
 	
@@ -68,24 +68,25 @@ h1, h2, h3, h4, h5 {
 		display: flex;
     	justify-content: space-between;
 		align-items: center;
-		margin: 10px 0px;
+		margin: 1% 0px;
 	}
 	
 	header nav{
 		display: flex;
     	justify-content: space-evenly;
     	align-items: center;
-    	margin: 20px 4px;
-    	width: 700px;
+    	margin: 4% 1%;
+    	width: 70%;
 	}
 	
 	header nav a{
-    	width:100px;
-    	display:flex;
+		width: 20%;
+		display: flex;
 		justify-content: space-between;
 		color: gray;
 		text-decoration: none;
 		font-size: 13px;
+		margin: 0 7%;
 	}
 	
 	header .logo{
@@ -93,10 +94,10 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	.cta{
-		margin: 50px 0px 0px;
-		display: flex;
-		align-items: center;
-		justify-content: flex-end;
+		margin: 5% 0 0;
+    	display: flex;
+    	align-items: center;
+    	justify-content: flex-end;
     
 	}
 	
@@ -120,8 +121,8 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	.cta img{
-		display: inline-block;
-		height: 300px;
+        width: 35%;
+    	margin-left: 8%;
 	}
 	
 	hr{
