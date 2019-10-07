@@ -355,7 +355,7 @@ h1, h2, h3, h4, h5 {
 
 @media(max-width:500px){
     .container{
-		max-width:100%;
+		max-width:98%;
 		justify-content:center;
     }
 
@@ -414,8 +414,31 @@ h1, h2, h3, h4, h5 {
 	}
 	
 	/*START SERVIES 500PX*/
+	.serviesTop{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	
 	.servicesTop img{
-		width:98%;
+		width:100%;
+		
+	}
+
+	.middleParent{
+		height:fit-content;
+	}
+
+	.middleParent .middleChild{
+		display:flex
+	}
+
+	.middleParent .middleChild .middleGrandChild{
+		height:fit-content;
+		align-text:center;
+	}
+
+	.middleGrandChild button{
+		margin:8% 0 0;
 	}
 }
 
