@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5 {
 		color: gray;
 		text-decoration: none;
 		font-size: 13px;
-		margin: 0 7%;
+		margin: 0 5%;
 	}
 	
 	header .logo{
@@ -106,9 +106,9 @@ h1, h2, h3, h4, h5 {
     	flex-direction:column;
     	justify-content:center;
     	align-items:center;
-		font-size: 70px;
+		font-size: 80px;
         text-align: center;
-        margin-right: 100px;
+        margin-right: 10%;
 	}
 	
 	.ctaText button{
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5 {
 		box-sizing: border-box;
 		background-color: white;
 		font-size: 11px;
-		width: 100px;
+		width: 30%;
 		justify-content: center;
 	}
 	
@@ -128,10 +128,7 @@ h1, h2, h3, h4, h5 {
 	hr{
 		display: block;
 		border: 1px solid black;
-		margin: 30px 0px;
-	}
-	
-	.pageContent{
+		margin: 5% 0px;
 	}
 	
 	.topPageContent{
@@ -141,10 +138,7 @@ h1, h2, h3, h4, h5 {
 	.content{
 		display: flex;
         flex-direction: column;
-        margin: 5px;
-	}
-	
-	.top{
+        margin: 1%;
 	}
 	
 	.middle-img{
@@ -164,21 +158,21 @@ h1, h2, h3, h4, h5 {
 	
 	.contact{
 		display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    	flex-direction: column;
+    	justify-content: space-around;
 	}
 
 	.contact p{
-		padding: 12px 0px;
+		padding: 1% 0px;
 	}
 	
 	.contact h4{
-		margin-top:40px;
+		margin-top: 1%;
 	}
 	
 	footer{
-		margin-bottom: 100px;
-    	margin-top: 50px;
+		margin-bottom: 10%;
+    	margin-top: 5%;
 	}
 	
 	footer p{
@@ -198,11 +192,11 @@ h1, h2, h3, h4, h5 {
 
 .servicesTop img{
 	display: flex;
-    margin: 10px 0px
+    margin: 1% 0px
 }
 
 .servicesTop h1{
-	margin: 20px 0px;
+	margin: 2% 0px;
     font-size: 25px;
 }
 
@@ -211,42 +205,41 @@ h1, h2, h3, h4, h5 {
     flex-direction: column;
     justify-content: space-between;
     align-content: space-between;
-    height: 800px;
+    height: fit-content;
 	
 }
 
 .middleChild{
 	display: flex;
     justify-content: space-between;
-    margin: 30px 0px 0px 0px;
+    margin: 2% 0 0;
 }
 
 .middleGrandChild{
 	display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: whitesmoke;
-    border: 1px solid black;
     align-items: flex-start;
-	padding: 10px;
-	padding-left: 20px;
+    padding: 1% 1% 1% 2%;
     width: 48%;
     height: 220px;
+    background-color: whitesmoke;
+    border: 1px solid black;
 }
 
 .middleGrandChild button{
-    background-color: white;
+	background-color: white;
     border: 1px solid gray;
     border-radius: 5px;
-    width: 100px;
-    height: 25px;
+    width: 15%;
+    height: 10%;
     font-size: 10px;
 }
 
 .bottomParent{
 	display: flex;
     flex-direction: row;
-    margin: 20px 0px;
+    margin: 2% 0px;
 }
 
 .bottomChild{
@@ -261,7 +254,7 @@ h1, h2, h3, h4, h5 {
     flex-direction: column;
     justify-content: space-between;
     flex-grow: 1;
-    margin-left: 20px;
+    margin-left: 2.5%;
 }
 
 .bottomChild p{
@@ -273,7 +266,7 @@ h1, h2, h3, h4, h5 {
 .copyright{
 	display: flex;
     justify-content: center;
-    margin: 100px 0px 15px;
+    margin: 7% 0px 2%;
 }
 
 
@@ -288,7 +281,7 @@ h1, h2, h3, h4, h5 {
     }
 
     header .logo{
-        margin: 20px 0;
+        margin: 3% 0;
     }
 
     header nav{
