@@ -1,3 +1,440 @@
-/* Use your own code or past solution for Great Idea Web Page CSS here! */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 
+/* Set every element's box-sizing to border-box */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 95%;
+	margin: auto;
+	}
+	
+	header{
+		display: flex;
+    	justify-content: space-between;
+		align-items: center;
+		margin: 1% 0px;
+	}
+	
+	header nav{
+		display: flex;
+    	justify-content: space-evenly;
+    	align-items: center;
+    	margin: 4% 1%;
+    	width: 70%;
+	}
+	
+	header nav a{
+		width: 20%;
+		display: flex;
+		justify-content: space-between;
+		color: gray;
+		text-decoration: none;
+		font-size: 13px;
+		margin: 0 5%;
+	}
+	
+	header .logo{
+		margin-left: 90px;
+	}
+	
+	.cta{
+		margin: 5% 0 0;
+    	display: flex;
+    	align-items: center;
+    	justify-content: flex-end;
+    
+	}
+	
+	.ctaText{
+		display: flex;
+    	flex-direction:column;
+    	justify-content:center;
+    	align-items:center;
+		font-size: 80px;
+        text-align: center;
+        margin-right: 10%;
+	}
+	
+	.ctaText button{
+		display: flex;
+		box-sizing: border-box;
+		background-color: white;
+		font-size: 11px;
+		width: 30%;
+		justify-content: center;
+	}
+	
+	.cta img{
+        width: 35%;
+    	margin-left: 8%;
+	}
+	
+	hr{
+		display: block;
+		border: 1px solid black;
+		margin: 5% 0px;
+	}
+	
+	.topPageContent{
+		display:flex;
+	}
+	
+	.content{
+		display: flex;
+        flex-direction: column;
+        margin: 1%;
+	}
+	
+	.middle-img{
+		margin: 40px 0px;
+		width: 100%;
+	}
+	
+	.bottomPageContent{
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.bottom{
+		width: 32%;
+		padding-right: 1%;
+	}
+	
+	.contact{
+		display: flex;
+    	flex-direction: column;
+    	justify-content: space-around;
+	}
+
+	.contact p{
+		padding: 1% 0px;
+	}
+	
+	.contact h4{
+		margin-top: 1%;
+	}
+	
+	footer{
+		margin-bottom: 10%;
+    	margin-top: 5%;
+	}
+	
+	footer p{
+		display: flex;
+    	justify-content: center
+	}
+
+	/*START SERVICES STYLE*/
+.container{
+}
+
+.servicesTop{
+	display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.servicesTop img{
+	display: flex;
+    margin: 1% 0px
+}
+
+.servicesTop h1{
+	margin: 2% 0px;
+    font-size: 25px;
+}
+
+.middleParent{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: space-between;
+    height: fit-content;
+	
+}
+
+.middleChild{
+	display: flex;
+    justify-content: space-between;
+    margin: 2% 0 0;
+}
+
+.middleGrandChild{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 1% 1% 1% 2%;
+    width: 48%;
+    height: 220px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+}
+
+.middleGrandChild button{
+	background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 15%;
+    height: 10%;
+    font-size: 10px;
+}
+
+.bottomParent{
+	display: flex;
+    flex-direction: row;
+    margin: 2% 0px;
+}
+
+.bottomChild{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bottomChild ul{
+	list-style-type: square;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    margin-left: 2.5%;
+}
+
+.bottomChild p{
+	display: flex;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.copyright{
+	display: flex;
+    justify-content: center;
+    margin: 7% 0px 2%;
+}
+
+
+    /*START 800PX*/
+@media(max-width:800px){
+    .container{
+        max-width:95%;
+    }
+
+    header{
+        flex-direction:column-reverse;
+    }
+
+    header .logo{
+        margin: 3% 0;
+    }
+
+    header nav{
+        width:100%;
+        justify-content:space-around;
+    }
+
+    header nav a{
+        display: inline-block;
+        text-align: center;
+    }
+
+    .cta img{
+        display:none;
+    }
+
+    .cta{
+        justify-content: center;
+        margin: 70px 0px 70px 75px;
+    }
+
+    .middleImg{
+        width: 100%;
+        display: flex;
+    }
+
+    .middle-img{
+        max-width:100%;
+    }
+
+    hr{
+        width:98%;
+        margin: 25px 1%;
+	}
+	
+	/*START SERVIES 800PX*/
+	
+	.servicesTop img{
+		width:100%;
+	}
+
+	.bottomParent{
+		text-align: center;
+	}
+
+	.bottomParent .bottomChild ul{
+		font-weight: bold;
+		list-style-type:none;
+		margin: 5%;
+	}
+
+	.bottomParent .bottomChild li{
+		margin: 1%;
+	}
+
+	.bottomParent img{
+		display:none;
+	}
+
+	.copyright{
+		margin: 3%;
+	}
+
+}
+
+
+
+@media(max-width:500px){
+    .container{
+		max-width:98%;
+		justify-content:center;
+    }
+
+    header{
+        flex-direction:column-reverse;
+    }
+
+    header nav{
+        flex-direction:column;
+        width:100%;
+        margin: 0;
+    }
+
+    header nav a{
+        display: inline-block;
+        text-align: center;
+        border-top: 1px solid lightgray;
+        padding: 15px 0;
+        width: 100%;
+        font-size: 20px;
+        color: lightgray;
+        font-weight: 600;
+    }
+
+    header nav a:last-child{
+        border-bottom:1px solid lightgray;
+    }
+
+    .content{
+        margin: 5px;
+    }
+
+    .pageContent{
+        width:100%;
+    }
+
+    .topPageContent{
+        flex-direction:column;
+    }
+
+    .bottomPageContent{
+        flex-direction:column;
+    }
+
+    .bottom{
+        width: 80%;
+        margin: 30px 10px;
+    }
+
+    .contact h4{
+        margin: 0px 10px;
+    }
+
+    .contact p{
+        margin: 0px 10px;
+	}
+	
+	/*START SERVIES 500PX*/
+	.serviesTop{
+		width: 95%;
+		margin: 0 2.5%;
+	}
+	
+	.servicesTop img{
+		width:100%;
+		
+	}
+
+	.middleParent{
+		height:fit-content;
+	}
+
+	.middleParent .middleChild{
+		display:flex
+	}
+
+	.middleParent .middleChild .middleGrandChild{
+		height:fit-content;
+		align-text:center;
+	}
+
+	.middleGrandChild button{
+		margin:8% 0 0;
+	}
+}
 
